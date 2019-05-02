@@ -1,0 +1,29 @@
+{
+  "name": "raildata-server",
+  "version": "1.0.0",
+  "description": "Serves railway data for London as GeoJSON",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piripinui/raildata-server.git"
+  },
+  "author": "Phil Robinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piripinui/raildata-server/issues"
+  },
+  "homepage": "https://github.com/piripinui/raildata-server#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "lokijs": "^1.5.6",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "url-pattern": "^1.0.3"
+  }
+}
